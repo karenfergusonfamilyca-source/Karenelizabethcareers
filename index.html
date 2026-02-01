@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karen Elizabeth Ferguson Careers</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f7fa; color: #222; }
+    header { background: #0d6efd; color: white; padding: 20px; }
+    nav a { color: white; margin-right: 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 60px 20px; text-align: center; background: white; }
+    .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+    footer { background: #111; color: #ccc; text-align: center; padding: 20px; margin-top: 40px; }
+    button { background: #0d6efd; color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; }
+    input, select, textarea { width: 100%; padding: 10px; margin-top: 8px; margin-bottom: 16px; border-radius: 6px; border: 1px solid #ccc; }
+    .apply-box { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Karen Elizabeth Ferguson Careers</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#jobs">Available Jobs</a>
+      <a href="#apply">Apply</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to Karen Elizabeth Ferguson Careers</h2>
+    <p>Your trusted platform for international and local job opportunities.</p>
+    <button onclick="document.getElementById('jobs').scrollIntoView()">View Jobs</button>
+  </section>
+
+  <section id="jobs" class="section">
+    <h2>Available Job Opportunities</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Caregiver</h3>
+        <p>Location: Canada</p>
+        <p>Requirements: Experience preferred</p>
+      </div>
+      <div class="card">
+        <h3>Warehouse Worker</h3>
+        <p>Location: Canada</p>
+        <p>Requirements: Physically fit</p>
+      </div>
+      <div class="card">
+        <h3>Truck Driver</h3>
+        <p>Location: Canada</p>
+        <p>Requirements: Valid driving license</p>
+      </div>
+      <div class="card">
+        <h3>Housekeeper</h3>
+        <p>Location: Canada</p>
+        <p>Requirements: Basic experience</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="apply" class="section">
+    <div style="position:fixed; bottom:20px; right:20px; z-index:999;">
+      <a href="https://wa.me/18078040046" target="_blank" style="background:#25D366; color:white; padding:14px 18px; border-radius:50px; text-decoration:none; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.2);">💬 Apply via WhatsApp</a>
+    </div>
+    <h2>Apply for a Job</h2>
+    <div class="apply-box">
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name" required />
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number" required />
+
+        <label>Select Job</label>
+        <select required>
+          <option value="">-- Select Job --</option>
+          <option>Caregiver</option>
+          <option>Warehouse Worker</option>
+          <option>Truck Driver</option>
+          <option>Housekeeper</option>
+        </select>
+
+        <label>Upload CV / Resume</label>
+        <input type="file" />
+
+        <label>Additional Message</label>
+        <textarea rows="4" placeholder="Write a short message..."></textarea>
+
+        <button type="submit">Submit Application</button>
+        <p style="margin-top:15px;">Or apply faster via WhatsApp:</p>
+        <a href="https://wa.me/18078040046" target="_blank" style="display:inline-block; background:#25D366; color:white; padding:12px 18px; border-radius:8px; text-decoration:none; font-weight:bold;">Apply on WhatsApp</a>
+      </form>
+      <p style="margin-top:15px; font-size: 14px; color:#666;">Note: You can connect this form to email, Google Forms, or a backend to receive applications.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@karenelizabethfergusoncareers.com</p>
+    <p>Phone / WhatsApp: <a href="https://wa.me/18078040046" target="_blank">+1 807 804 0046</a></p>
+    <p>Office Hours: Monday - Friday</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Karen Elizabeth Ferguson Careers. All rights reserved.</p>
+  </footer>
+</body>
+</html>
